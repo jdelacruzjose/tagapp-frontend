@@ -1,0 +1,64 @@
+.theeVehicle{
+  background-color: white;
+}
+
+.vehicleForm{
+  width: 400px;
+  height: auto;
+  background-color: #C5C5C5;
+  margin-top: 20px;
+  margin-left: 100px;
+  margin-bottom: 20px;
+  float: left;
+  padding: 20px;
+  box-shadow: 0px 2px 5px 0px #111;
+
+}
+
+.vehicleForm label{
+  display: block;
+  margin-top: 5px;
+  margin-bottom: 5px;
+  text-align: left;
+  font-weight: bold;
+}
+
+
+.vehicleForm input{
+  display: block;
+  width: 100%;
+  padding-left: 5px;
+}
+
+.vehicleForm textarea{
+  display: block;
+  width: 100%;
+  padding-left: 5px;
+}
+
+.vehicleForm button{
+  background-color: #28a745;
+  color: #fff;
+  border-radius: 10px;
+  padding: 5px;
+  margin: 5px;
+}
+
+.eventNames{
+  float: right;
+  margin-top: 20px;
+  margin-right: 100px;
+  margin-bottom: 20px;
+}
+
+.eventNames h3{
+  text-decoration: none;
+  color: #24305c;
+}
+
+.vehicleContain{
+  display: flex;
+  justify-content: flex-start;
+  justify-content: space-evenly;
+  padding: 50px;
+}

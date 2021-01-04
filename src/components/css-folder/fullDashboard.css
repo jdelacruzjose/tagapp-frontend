@@ -1,0 +1,70 @@
+
+.myTest{
+  border: 1px solid white;
+  height: 90vh;
+  padding: 20px;
+  margin: 20px;
+  background-color: white;
+  font-family: 'Roboto', sans-serif;
+  font-size: 23px;
+  font-weight: bold;
+}
+
+/* .myTest Carousel {
+  max-width: 100%;
+  max-height: 100%;
+} */
+
+.Countdown{
+  border: 1px solid white;
+  background-color: #B8D8D8;
+  margin: 20px;
+  font-family: 'Roboto', sans-serif;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.myNextEvent{
+  display: flex;
+  justify-content: left;
+}
+
+.theFooter{
+  background-color: #24305d;
+  display: flex;
+  justify-content: space-around;
+  align-items: flex-start;
+  margin-top: 20px;
+}
+
+.theFooter p{
+  color: white;
+  display: flex;
+  padding-top: 30px;
+}
+
+.loader {
+  border: 16px solid #f3f3f3; /* Light grey */
+  border-top: 16px solid #3498db; /* Blue */
+  border-radius: 50%;
+  width: 100px;
+  height: 100px;
+  animation: spin 2s linear infinite;
+  margin: 0 auto;
+
+  
+ }
+ @keyframes spin {
+  0% { transform: rotate(0deg); }
+  100% { transform: rotate(360deg); }
+ }
+
+ .theedashboard{
+   background-color: #4F6367;
+   margin: 0%;
+ }
+/* 
+ #myNextBackground{
+   background-color: paleturquoise;
+    height: 400px;
+ } */

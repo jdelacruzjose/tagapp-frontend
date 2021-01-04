@@ -1,0 +1,74 @@
+@fontface {
+font-family: 'Amatic SC', cursive;
+font-family: 'Oswald', sans-serif;
+font-family: 'Josefin Slab', serif;
+font-family: 'Open Sans Condensed', sans-serif;
+font-family: 'Roboto', sans-serif;
+font-family: 'Open Sans', sans-serif;
+src: url('https://fonts.googleapis.com/css?family=Amatic+SC|Josefin+Slab|Open+Sans|Open+Sans+Condensed:300|Oswald|Roboto&display=swap')
+}
+
+* {
+  padding: 0;
+  margin: 0;
+}
+
+
+.outside{
+  background-image: url('./images/two-women-sitting-on-vehicle-roofs-2409681.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  height: 650px;
+  background-color: rgba(255, 255, 255, 0.1);
+}
+
+.mainHeader p{
+  font-family: 'Oswald', sans-serif;
+  color: white;
+  line-height: 6.5rem;
+  text-align: center;
+  font-size: 6em;
+  padding-top: 450px;
+  font-weight: bold;
+  text-shadow: #000000 1px 0 10px;
+}
+
+.outside nav{
+    display: flex;
+    float: right;
+    justify-content: space-between;
+    height: 90px;
+    border: none;
+    background-color: transparent;
+}
+
+.outside li{
+  padding-right: 55px;
+  font-size: 23px;
+  font-family: 'Roboto', sans-serif;
+  display: flex;
+  justify-content: space-between;
+}
+
+.outside a{
+  margin-top: 25px;
+  color: #fff !important;
+}
+
+.outside #theText img{
+  height: 90px;
+  padding-left: 30px;
+  width: auto;
+}
+
+
+.outside #theText li {
+  list-style-type: none;
+  display: inline-block;
+  
+}
+
+.outside #theText ul{
+  width: fit-content;
+}

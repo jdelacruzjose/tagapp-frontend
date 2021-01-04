@@ -1,0 +1,13 @@
+.theViews{
+  margin: 0 auto;
+  padding: 50px;
+}
+
+.theViews button{
+  background-color: red;
+  color: #fff;
+  border-radius: 10px;
+  padding: 5px;
+  margin: 20px;
+  font-size: 23px;
+}

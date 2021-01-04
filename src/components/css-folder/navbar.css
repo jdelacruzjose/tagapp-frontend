@@ -1,0 +1,46 @@
+@fontface {
+  font-family: 'Alata', sans-serif;
+  font-family: 'Roboto', sans-serif;
+  src: url('https://fonts.googleapis.com/css?family=Alata|Roboto&display=swap')
+}
+
+.nav-style {
+  display: flex;
+  justify-content: space-between;
+  height: 80px;
+  border: none;
+  background-color: #24305d;
+}
+
+ul{
+  color: white;
+  list-style-type: none;
+  display: flex;
+  justify-content: space;
+  align-items: center;
+}
+
+li{
+  padding-right: 25px;
+  font-size: 1.3em;
+  text-decoration: none;
+  color: white;
+}
+
+.logo {
+  height: 80px;
+  padding-left: 30px;
+  width: auto;
+}
+
+li a{
+  text-decoration: none;
+  color: white;
+}
+
+li button {
+  background-color: #df342f;
+  color: white;
+  border-radius: 16px;
+  padding: 3px 6px 3px 6px;
+}
